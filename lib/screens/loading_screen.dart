@@ -11,6 +11,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        
         children: <Widget>[
           Center(
             child: RaisedButton(
@@ -21,9 +23,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
             ),
           ),
           AdmobBanner(
-  adUnitId: 'ca-app-pub-4597919722020460/8120921653',
-  adSize: AdmobBannerSize.BANNER,
-)
+            adUnitId: 'ca-app-pub-4597919722020460/8120921653',
+            adSize: AdmobBannerSize.BANNER,
+          ),
         ],
       ),
     );
